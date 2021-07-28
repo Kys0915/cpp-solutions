@@ -1,8 +1,3 @@
-/*
-  Sưu tầm bởi @nguyenvanhieuvn
-  Thực hành nhiều bài tập hơn tại https://luyencode.net/
-*/
-
 #include<stdio.h>
 #include<conio.h>
 
@@ -41,7 +36,7 @@ int main(){
             printf("Bon");
         }
         else if (tram == 5)
-        {
+        {   
             printf("Nam");
         }
         else if (tram == 6)
@@ -61,7 +56,12 @@ int main(){
             printf("Chin");
         }
         printf(" Tram ");
-
+         
+        if(chuc == 0)
+        {
+          if(donvi > 0)
+              printf(" Le ");
+        }
         if (chuc == 2)
         {
             printf("Hai");
@@ -94,7 +94,11 @@ int main(){
         {
             printf("Chin");
         }
-        printf(" Muoi ");
+      
+        if(chuc >= 1)
+        {
+           printf(" Muoi ");
+        }
 
 
         if (donvi == 1)
